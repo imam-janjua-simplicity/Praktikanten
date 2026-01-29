@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Button Beispiel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="text">Noch nicht gedrückt</h1>
+
+    <button onclick="buttonKlick()">Klick mich</button>
+
+    <script>
+        function buttonKlick() {
+            document.getElementById("text").innerText = "Button wurde gedrückt!";
+        }
+    </script>
+
+</body>
+</html>
+

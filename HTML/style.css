@@ -1,0 +1,41 @@
+/* Hintergrund */
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #66afea, #3b74c9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Überschrift / Text */
+h1 {
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+/* Button */
+button {
+    background: linear-gradient(135deg, #f29aff, #e46574);
+    border: none;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover-Effekt */
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Klick-Effekt */
+button:active {
+    transform: scale(0.95);
+}
